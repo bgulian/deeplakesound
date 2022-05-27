@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1c19c82f.css",
+    "main.js": "/static/js/main.e7de2be5.js",
+    "static/js/787.77c2f2c5.chunk.js": "/static/js/787.77c2f2c5.chunk.js",
+    "static/media/nightlights.jpg": "/static/media/nightlights.b4fce60af88f9418c847.jpg",
+    "static/media/gearshot.jpg": "/static/media/gearshot.39e9e6ba39a367a58fad.jpg",
+    "static/media/notmessybig.jpg": "/static/media/notmessybig.add87e00b84ab8236440.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.1c19c82f.css.map": "/static/css/main.1c19c82f.css.map",
+    "main.e7de2be5.js.map": "/static/js/main.e7de2be5.js.map",
+    "787.77c2f2c5.chunk.js.map": "/static/js/787.77c2f2c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c19c82f.css",
+    "static/js/main.e7de2be5.js"
+  ]
+}
