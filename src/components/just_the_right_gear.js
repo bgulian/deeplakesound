@@ -16,6 +16,7 @@ const JustTheRightGear = () => {
       paperContainer: {
       backgroundRepeat: 'no-repeat',
       backgroundImage: `url(${Image}) `,
+      backgroundPosition: 'center',
       minHeight: `1300px`,
       margin: "0px 40px 0px 40px",
       color: 'black'
@@ -25,6 +26,11 @@ const JustTheRightGear = () => {
       	padding: "10px 10px 0px 0px",
       	margin: "0px 40px 0px 60px",
       	color: "black"
+      },
+      h2Style: {
+      	padding: "10px 10px 10px 10px",
+      	margin: "0px 40px 0px 65px",
+      	color: "blue"
       },
       gearBlock: {
       	padding: "10px 10px 10px 10px",
@@ -136,7 +142,7 @@ const JustTheRightGear = () => {
 		<div style={styles.layer}>
 		<h1 style={styles.h1Style}><Button style={styles.bigButton} variant="text" component={Link}
           to={"/"}>Deep Lake Sound Studio</Button> </h1>
-        <h2 style={styles.h1Style}>
+        <h2 style={styles.h2Style}>
           Just the right gear...
         </h2>
 		{core()}
