@@ -3,56 +3,79 @@ import Button from '@mui/material/Button';
 import  '../eightst_styles.css';
 import { styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem'
+import itemData from './imagelist'
 
-const itemData = [
-{
-	"img": '../images/gearshot.jpg',
-	"title": "somegear"
-},
-{
-	"img": './gearshot.jpg',
-	"title": "somegear"
-},
-{
-	"img": '../images/gearshot.jpg',
-	"title": "somegear"
-},
-{
-	"img": '../images/gearshot.jpg',
-	"title": "somegear"
-},
-{
-	"img": '../images/gearshot.jpg',
-	"title": "somegear"
-},
-{
-	"img": '../images/gearshot.jpg',
-	"title": "somegear"
-}
-]
+
 const TheBuild = () => {
 
+const styles = {
+      paperContainer: {
+      backgroundRepeat: 'no-repeat',
+      backgroundImage: `url(${Image}) `,
+      backgroundPosition: 'center',
+      minHeight: `1300px`,
+      margin: "0px 40px 0px 40px",
+      color: 'black'
+      },
 
+      h1Style: {
+      	padding: "10px 10px 0px 0px",
+      	margin: "0px 40px 0px 60px",
+      	color: "black"
+      },
+      h2Style: {
+      	padding: "10px 10px 10px 10px",
+      	margin: "0px 40px 0px 65px",
+      	color: "blue"
+      },
+      gearBlock: {
+      	padding: "10px 10px 10px 10px",
+      	margin: "0px 40px 0px 70px"
+      },
+
+      bigButton: {
+      	fontSize: "32px",
+      	color: "#4351b7",
+      	textTransform: 'none',
+      	paddingBottom: '15px'
+      },
+
+      layer: {
+	    backgroundColor: 'rgba(248, 247, 247, 0.6)',
+	    position: 'absolute',
+	    minHeight: '1300px',
+	    top: '0',
+	    left: '0',
+	    width: '100%',
+	    height: '100%'
+		}
+
+  	};
 	
 
 return (
-	<ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
-  {itemData.map((item) => (
-    <ImageListItem key={item.img}>
+	<Paper elevation={1} style={styles.paperContainer}>
+		<h1 style={styles.h1Style}><Button style={styles.bigButton} variant="text" component={Link}
+          to={"/"}>Deep Lake Sound Studio</Button> </h1>
+	<ImageList sx={{ width: 1000, height: 1000 }} cols={3} rowHeight={384}>
+  {itemData.map((item,ndx) => (
+    <ImageListItem key={`${item.img}${ndx}`}>
       <img
-        src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-        srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+        src={item.img}
+        srcSet={item.img}
         alt={item.title}
         loading="lazy"
       />
     </ImageListItem>
   ))}
 	</ImageList>
+	</Paper>
 	);
 }
 
