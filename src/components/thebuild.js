@@ -8,7 +8,8 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem'
+import ImageListItem from '@mui/material/ImageListItem';
+import ImageListItemBar from '@mui/material/ImageListItemBar';
 import itemData from './imagelist'
 
 
@@ -20,7 +21,7 @@ const styles = {
       backgroundImage: `url(${Image}) `,
       backgroundPosition: 'center',
       minHeight: `1300px`,
-      margin: "0px 40px 0px 40px",
+      margin: "0px 5px 0px 5px",
       color: 'black'
       },
 
@@ -63,15 +64,20 @@ return (
 	<Paper elevation={1} style={styles.paperContainer}>
 		<h1 style={styles.h1Style}><Button style={styles.bigButton} variant="text" component={Link}
           to={"/"}>Deep Lake Sound Studio</Button> </h1>
-	<ImageList sx={{ width: 1000, height: 1000 }} cols={3} rowHeight={384}>
+	<ImageList sx={{ width: 1300 }} cols={3} rowHeight={784}>
   {itemData.map((item,ndx) => (
-    <ImageListItem key={`${item.img}${ndx}`}>
-      <img
-        src={item.img}
-        srcSet={item.img}
+    <ImageListItem key={`${item.img}${ndx}`}>?
+      <img 
+        src={`${item.img}`}
+       
         alt={item.title}
         loading="lazy"
       />
+      <ImageListItemBar
+        title={item.title}
+        subtitle={item.desc}
+        position="below"
+         />
     </ImageListItem>
   ))}
 	</ImageList>

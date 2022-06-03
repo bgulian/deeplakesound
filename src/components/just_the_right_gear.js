@@ -17,8 +17,8 @@ const JustTheRightGear = () => {
       backgroundRepeat: 'no-repeat',
       backgroundImage: `url(${Image}) `,
       backgroundPosition: 'center',
-      minHeight: `1300px`,
-      margin: "0px 40px 0px 40px",
+      minHeight: `1600px`,
+      margin: "0px 10px 0px 10px",
       color: 'black'
       },
 
@@ -46,7 +46,7 @@ const JustTheRightGear = () => {
       layer: {
 	    backgroundColor: 'rgba(248, 247, 247, 0.6)',
 	    position: 'absolute',
-	    minHeight: '1300px',
+	    minHeight: '1600px',
 	    top: '0',
 	    left: '0',
 	    width: '100%',
