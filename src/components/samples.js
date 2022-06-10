@@ -26,6 +26,10 @@ const Samples = () => {
       	margin: "0px 40px 0px 20px",
       	color: "white"
       },
+      figureStyle: {
+        margin: "10px 5px 0px 20px",
+        color: "white"
+      },
     
 
       bigButton: {
@@ -42,6 +46,16 @@ const Samples = () => {
         <h2 style={styles.h2Style}>
           Audio Samples
         </h2>
+        
+         <figure style={styles.figureStyle}>
+          <figcaption>Two To Fly (HD)- Bob Gulian:</figcaption>
+          <audio
+              controls
+              src="https://deeplakesound.fra1.digitaloceanspaces.com/TwoToFly-Master%20-%20MAIN.wav">
+                  Your browser does not support the
+                  <code>audio</code> element.
+          </audio>
+        </figure>
         </Paper>
 		);
 }
