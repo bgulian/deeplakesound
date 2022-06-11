@@ -8,7 +8,6 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import { MenuItem } from '@mui/material';
 import { Link } from 'react-router-dom';
-import JustTheRightGear from './just_the_right_gear';
 import ContactStuff from './contact';
 import Image from '../images/notmessybig.jpg';
 
@@ -72,6 +71,11 @@ const LandingPage = (props) => {
           to={"./thebuild"}
            style={styles.mitemBlock}
         >The Build</MenuItem>
+        <MenuItem
+          component={Link}
+          to={"./about"}
+           style={styles.mitemBlock}
+        >About Us</MenuItem>
         <MenuItem
            onClick={(e) => {e.preventDefault(); setContact(!contact)}}
            style={styles.mitemBlock}

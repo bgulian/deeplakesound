@@ -7,6 +7,7 @@ import LandingPage from './components/landing_page';
 import JustTheRightGear from './components/just_the_right_gear';
 import Samples from './components/samples';
 import TheBuild from './components/thebuild';
+import About from "./components/about";
 import {
   BrowserRouter as Router,
   Routes,
@@ -38,6 +39,7 @@ function App() {
           <Route path="/just_the_right_gear" element={ <JustTheRightGear />} />
           <Route path="/samples" element={ <Samples />} />
           <Route path="/thebuild" element={ <TheBuild />} />
+          <Route path="/about" element={ <About />} />
         </Routes>
       </div>
     </Router>

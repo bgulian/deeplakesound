@@ -9,11 +9,10 @@ import Grid from '@mui/material/Grid';
 import Image from '../images/nightlights.jpg';
 import { Link } from 'react-router-dom';
 
-const Samples = () => {
+const About = () => {
 	const styles = {
       paperContainer: {
-          backgroundRepeat: 'no-repeat',
-          backgroundImage: `url(${Image}) `,
+          backgroundColor: '#B8E9FF',
           minHeight: `1200px`,
           margin: "0px 40px 0px 40px"
       	},
@@ -31,7 +30,9 @@ const Samples = () => {
         color: "white"
       },
     
-
+      pStyle: {
+        padding: "10px 10px 10px 10px"
+      },
       bigButton: {
       	fontSize: "32px",
       	color: "#4351b7",
@@ -44,26 +45,33 @@ const Samples = () => {
 		<h1 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
           to={"/"}>Deep Lake Sound Studio</Button></h1>
         <h2 style={styles.h2Style}>
-          Audio Samples
+          About Us
         </h2>
-        
-         <figure style={styles.figureStyle}>
-          <figcaption>Two To Fly (HD)- Bob Gulian:</figcaption>
-          <audio
-              controls
-              src="https://deeplakesound.fra1.digitaloceanspaces.com/TwoToFly-Master%20-%20MAIN.wav">
-                  Your browser does not support the
-                  <code>audio</code> element.
-          </audio>
-        </figure>
-        <figure>
-         <figcaption style={styles.figureStyle}>Latest Album - Bob Gulian:</figcaption>
-        <a href="https://open.spotify.com/album/7wNjFCFfd45qewLA9VI8ZM">
-        33 1/3
-        </a>
-        </figure>
-        </Paper>
-		);
+        <p style={styles.pStyle}>Great Records can be recorded like <a href="https://www.1854.photography/wp-content/uploads/2016/04/Image-2-Landy.jpg">this</a>  and <a href="https://www.skiddle.com/news/all/Throwback-Thursday-Radiohead-OK-Computer-/27043/">this</a></p>
+        <p style={styles.pStyle}>With that in mind, Deep Lake Sound has no control room, no board and no Studio B. It is, instead, one well tuned live room with an engineer and some great equipment.</p>
+        <Box
+          component="img"
+          sx={{
+            height: 800,
+            width: 600,
+           
+          }}
+          alt="Session."
+          src="/images/Session.jpg?auto=format&w=350&dpr=2"
+        />
+        <p style={styles.pStyle}>It'a all vibe</p>
+        <Box
+          component="img"
+          sx={{
+            height: 800,
+            width: 600,
+           
+          }}
+          alt="Summer at Deep Lake Sound."
+          src="/images/StudioSummer.jpg?auto=format&w=350&dpr=2"
+        />
+    </Paper>
+    );
 }
 
-export default Samples;
+export default About;

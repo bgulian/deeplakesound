@@ -8,7 +8,6 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import { MenuItem } from '@mui/material';
 import { Link } from 'react-router-dom';
-import JustTheRightGear from './just_the_right_gear';
 import Image from '../images/notmessybig.jpg';
 
 const ContactStuff = (props) => {
