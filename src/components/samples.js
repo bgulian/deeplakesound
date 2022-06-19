@@ -56,7 +56,7 @@ const Samples = () => {
           <figcaption>Two To Fly (HD)- Bob Gulian:</figcaption>
           <audio
               controls
-              src="https://deeplakesound.fra1.digitaloceanspaces.com/TwoToFly-Master%20-%20MAIN.wav">
+              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/TwoToFly-Master%20-%20MAIN.wav">
                   Your browser does not support the
                   <code>audio</code> element.
           </audio>
