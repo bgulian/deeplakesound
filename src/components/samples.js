@@ -30,6 +30,11 @@ const Samples = () => {
         margin: "10px 5px 0px 20px",
         color: "white"
       },
+
+      linkStyle: {
+        color: "white",
+        margin: "0px 40px 0px 40px"
+      },
     
 
       bigButton: {
@@ -56,11 +61,18 @@ const Samples = () => {
                   <code>audio</code> element.
           </audio>
         </figure>
+        <figure style={styles.figureStyle}>
+          <figcaption>I Resist (HD)- Bob Gulian:</figcaption>
+          <audio
+              controls
+              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/I%20Persist%20-%20MAIN.wav">
+                  Your browser does not support the
+                  <code>audio</code> element.
+          </audio>
+        </figure>
         <figure>
-         <figcaption style={styles.figureStyle}>Latest Album - Bob Gulian:</figcaption>
-        <a href="https://open.spotify.com/album/7wNjFCFfd45qewLA9VI8ZM">
-        33 1/3
-        </a>
+         <figcaption style={styles.figureStyle}>Latest Album - 33 1/3 - Bob Gulian:</figcaption>
+        <a href="https://open.spotify.com/album/7wNjFCFfd45qewLA9VI8ZM">33 1/3</a>
         </figure>
         </Paper>
 		);
