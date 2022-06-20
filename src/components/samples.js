@@ -32,8 +32,12 @@ const Samples = () => {
       },
 
       linkStyle: {
-        color: "white",
-        margin: "0px 40px 0px 40px"
+        outline: "none",
+        textDecoration: "none",
+        fontSize: "1.2rem",
+        padding: "2px 1px 0",
+        color: "#5279CD",
+        margin: "0px 40px 0px 20px",
       },
     
 
@@ -72,7 +76,7 @@ const Samples = () => {
         </figure>
         <figure>
          <figcaption style={styles.figureStyle}>Latest Album - 33 1/3 - Bob Gulian:</figcaption>
-        <a href="https://open.spotify.com/album/7wNjFCFfd45qewLA9VI8ZM">33 1/3</a>
+        <a style={styles.linkStyle} href="https://open.spotify.com/album/7wNjFCFfd45qewLA9VI8ZM">33 1/3</a>
         </figure>
         </Paper>
 		);

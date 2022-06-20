@@ -27,7 +27,7 @@ const styles = {
 
       h1Style: {
       	padding: "10px 10px 0px 0px",
-      	margin: "0px 40px 0px 60px",
+      	margin: "0px 40px 0px 5px",
       	color: "black"
       },
       h2Style: {
@@ -44,7 +44,8 @@ const styles = {
       	fontSize: "32px",
       	color: "#4351b7",
       	textTransform: 'none',
-      	paddingBottom: '15px'
+      	paddingBottom: '15px',
+        margin: "0px 0px 0px 0px"
       },
 
       layer: {

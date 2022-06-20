@@ -48,28 +48,33 @@ const About = () => {
           About Us
         </h2>
         <p style={styles.pStyle}>Great Records can be recorded like <a href="https://www.1854.photography/wp-content/uploads/2016/04/Image-2-Landy.jpg">this</a>  and <a href="https://www.skiddle.com/news/all/Throwback-Thursday-Radiohead-OK-Computer-/27043/">this</a></p>
-        <p style={styles.pStyle}>With that in mind, Deep Lake Sound has no control room, no board and no Studio B. It is, instead, one well tuned live room with an engineer and some great equipment.</p>
-        <Box
-          component="img"
-          sx={{
-            height: 800,
-            width: 600,
-           
-          }}
-          alt="Session."
-          src="/images/Session.jpg?auto=format&w=350&dpr=2"
-        />
-        <p style={styles.pStyle}>It'a all vibe</p>
-        <Box
-          component="img"
-          sx={{
-            height: 800,
-            width: 600,
-           
-          }}
-          alt="Summer at Deep Lake Sound."
-          src="/images/StudioSummer.jpg?auto=format&w=350&dpr=2"
-        />
+        <p style={styles.pStyle}>With that in mind, Deeplake Sound has no control room, no board and no Studio B. It is, instead, one well tuned live room with an engineer and some great equipment.</p>
+       <Grid container item xs={12} sm={6} md={3} align="center">
+          <Grid item xs={8}>
+
+            <div><img src="/images/StudioLookingDown.jpg?auto=format&w=600&dpr=2" />
+              </div>
+              <div><p style={styles.pStyle}>It's all about vibe</p>
+              </div>
+          </Grid>
+          <Grid item xs={4}>
+          </Grid>
+          <Grid item xs={1}>
+            <div><img src="/images/AmpsDrums.jpg?auto=format&w=600&dpr=2" />
+              </div>
+          </Grid>
+        </Grid>
+         <Grid container item xs={12} sm={6} md={3} align="center">
+           <Grid item xs={8}>
+            <div><p style={styles.pStyle}>And Flexibility</p>
+              </div>
+            <div><img src="/images/Racks.jpg?auto=format&w=600&dpr=2" />
+              </div>
+             
+          </Grid>  
+       
+        </Grid>
+         
     </Paper>
     );
 }
