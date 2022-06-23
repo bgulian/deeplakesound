@@ -68,7 +68,7 @@ const LandingPage = (props) => {
         >Samples</MenuItem>
         <MenuItem
           component={Link}
-          to={"./thebuild"}
+          to={"./thebuildtwo"}
            style={styles.mitemBlock}
         >The Build</MenuItem>
         <MenuItem

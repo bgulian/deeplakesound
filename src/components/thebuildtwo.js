@@ -70,7 +70,7 @@ export default function TheBuildTwo() {
     setOpen(true)
   }
 
-  const handleClose = (event: React.SyntheticEvent | Event, reason?: string) => {
+  const handleClose = () => {
      setOpen(false)
   }
   const action = (

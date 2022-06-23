@@ -6,7 +6,7 @@ import ProTip from './ProTip';
 import LandingPage from './components/landing_page';
 import JustTheRightGear from './components/just_the_right_gear';
 import Samples from './components/samples';
-import TheBuild from './components/thebuildtwo';
+import TheBuildTwo from './components/thebuildtwo';
 import About from "./components/about";
 import {
   BrowserRouter as Router,
@@ -38,7 +38,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/just_the_right_gear" element={ <JustTheRightGear />} />
           <Route path="/samples" element={ <Samples />} />
-          <Route path="/thebuildtwo" element={ <TheBuild />} />
+          <Route path="/thebuildtwo" element={ <TheBuildTwo />} />
           <Route path="/about" element={ <About />} />
         </Routes>
       </div>
