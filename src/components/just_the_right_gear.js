@@ -3,14 +3,13 @@ import  '../eightst_styles.css';
 import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
 import Paper from '@mui/material/Paper';
-import Image from '../images/gearshot.jpg';
 
 const JustTheRightGear = () => {
 
 	const styles = {
       paperContainer: {
       backgroundRepeat: 'no-repeat',
-      backgroundImage: `url(${Image}) `,
+      backgroundImage: `url("https://deeplakesound.fra1.digitaloceanspaces.com/images/gearshot.jpg")`,
       backgroundPosition: 'center',
       minHeight: `1600px`,
       margin: "0px 10px 0px 10px",

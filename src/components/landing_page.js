@@ -7,7 +7,6 @@ import Grid from '@mui/material/Grid';
 import { MenuItem } from '@mui/material';
 import { Link } from 'react-router-dom';
 import ContactStuff from './contact';
-import Image from '../images/notmessybig.jpg';
 
 const LandingPage = (props) => {
   const [contact, setContact] = useState(false)
@@ -17,7 +16,7 @@ const LandingPage = (props) => {
     ...theme.typography.body2,
     padding: theme.spacing(1),
     backgroundRepeat: 'no-repeat',
-    backgroundImage: `url(${Image}) `,
+    backgroundImage: `url("https://deeplakesound.fra1.digitaloceanspaces.com/images/notmessybig.jpg")`,
     backgroundPosition: "center",
     minHeight: `1200px`,
     textAlign: 'center',
@@ -25,13 +24,7 @@ const LandingPage = (props) => {
   }));
 
   const styles = {
-      paperContainer: {
-          backgroundRepeat: 'no-repeat',
-          backgroundImage: `url(${Image}) `,
-          minHeight: `1200px`,
-          margin: "auto",
-          textAlign:"center"
-      },
+      
        h1Style: {
         padding: "10px 10px 10px 10px",
         color: "#4351b7"

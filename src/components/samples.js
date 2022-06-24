@@ -1,14 +1,13 @@
 import Button from '@mui/material/Button';
 import  '../eightst_styles.css';
 import Paper from '@mui/material/Paper';
-import Image from '../images/nightlights.jpg';
 import { Link } from 'react-router-dom';
 
 const Samples = () => {
 	const styles = {
       paperContainer: {
           backgroundRepeat: 'no-repeat',
-          backgroundImage: `url(${Image}) `,
+          backgroundImage: `url("https://deeplakesound.fra1.digitaloceanspaces.com/images/nightlights.jpg")`,
           minHeight: `1200px`,
           margin: "0px 40px 0px 40px"
       	},

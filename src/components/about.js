@@ -49,7 +49,7 @@ const About = () => {
        <Grid container item xs={12} sm={6} md={3} align="center">
           <Grid item xs={8}>
 
-            <div><img src="/images/StudioLookingDown.jpg?auto=format&w=600&dpr=2" alt="Studio from above"/>
+            <div><img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/StudioLookingDown.jpg" alt="Studio from above"/>
               </div>
               <div><p style={styles.pStyle}>It's all about vibe</p>
               </div>
@@ -57,7 +57,7 @@ const About = () => {
           <Grid item xs={4}>
           </Grid>
           <Grid item xs={1}>
-            <div><img src="/images/AmpsDrums.jpg?auto=format&w=600&dpr=2" alt="Left side of the studio"/>
+            <div><img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/AmpsDrums.jpg" alt="Left side of the studio"/>
               </div>
           </Grid>
         </Grid>
@@ -65,7 +65,7 @@ const About = () => {
            <Grid item xs={8}>
             <div><p style={styles.pStyle}>And Flexibility</p>
               </div>
-            <div><img src="/images/Racks.jpg?auto=format&w=600&dpr=2" alt="Equipment"/>
+            <div><img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/Racks.jpg" alt="Equipment"/>
               </div>
              
           </Grid>  
