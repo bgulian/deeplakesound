@@ -1,8 +1,5 @@
-import logo from './logo.svg';
-import Container from '@mui/material/Container';
+
 import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import ProTip from './ProTip';
 import LandingPage from './components/landing_page';
 import JustTheRightGear from './components/just_the_right_gear';
 import Samples from './components/samples';
@@ -16,20 +13,6 @@ import {
 } from "react-router-dom"
 
 
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="http://www.biglakesound.com/">
-        www.biglakesound.com
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
 function App() {
   return (
     <Router>
@@ -41,9 +24,10 @@ function App() {
           <Route path="/thebuildtwo" element={ <TheBuildTwo />} />
           <Route path="/about" element={ <About />} />
         </Routes>
+       
       </div>
     </Router>
-    
+   
   );
 }
 

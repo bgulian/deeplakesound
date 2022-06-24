@@ -1,12 +1,8 @@
-import { useState, useEffect } from "react";
+
 import Button from '@mui/material/Button';
 import  '../eightst_styles.css';
-import { styled } from '@mui/material/styles';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import Image from '../images/nightlights.jpg';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -53,7 +49,7 @@ const About = () => {
        <Grid container item xs={12} sm={6} md={3} align="center">
           <Grid item xs={8}>
 
-            <div><img src="/images/StudioLookingDown.jpg?auto=format&w=600&dpr=2" />
+            <div><img src="/images/StudioLookingDown.jpg?auto=format&w=600&dpr=2" alt="Studio from above"/>
               </div>
               <div><p style={styles.pStyle}>It's all about vibe</p>
               </div>
@@ -61,7 +57,7 @@ const About = () => {
           <Grid item xs={4}>
           </Grid>
           <Grid item xs={1}>
-            <div><img src="/images/AmpsDrums.jpg?auto=format&w=600&dpr=2" />
+            <div><img src="/images/AmpsDrums.jpg?auto=format&w=600&dpr=2" alt="Left side of the studio"/>
               </div>
           </Grid>
         </Grid>
@@ -69,7 +65,7 @@ const About = () => {
            <Grid item xs={8}>
             <div><p style={styles.pStyle}>And Flexibility</p>
               </div>
-            <div><img src="/images/Racks.jpg?auto=format&w=600&dpr=2" />
+            <div><img src="/images/Racks.jpg?auto=format&w=600&dpr=2" alt="Equipment"/>
               </div>
              
           </Grid>  

@@ -1,13 +1,8 @@
-import { useState, useEffect } from "react";
 import Button from '@mui/material/Button';
 import  '../eightst_styles.css';
-import { styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
-import {List,ListItem,ListItemText} from '@mui/material/List';
 import { Link } from 'react-router-dom';
-import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
 import Image from '../images/gearshot.jpg';
 
 const JustTheRightGear = () => {

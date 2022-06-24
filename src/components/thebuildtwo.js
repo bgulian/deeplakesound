@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Button from '@mui/material/Button';
 import  '../eightst_styles.css';
 import { Link } from 'react-router-dom';
 import Snackbar from '@mui/material/Snackbar';
 import ImageList from '@mui/material/ImageList';
-import { styled } from '@mui/material/styles';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import ListSubheader from '@mui/material/ListSubheader';
