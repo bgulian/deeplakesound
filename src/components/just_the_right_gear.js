@@ -10,7 +10,7 @@ const JustTheRightGear = () => {
       paperContainer: {
       backgroundRepeat: 'no-repeat',
       backgroundImage: `url("https://deeplakesound.fra1.digitaloceanspaces.com/images/gearshot.jpg")`,
-      backgroundPosition: 'center',
+      backgroundPosition: 'top right',
       minHeight: `1600px`,
       margin: "0px 10px 0px 10px",
       color: 'black'
@@ -34,9 +34,9 @@ const JustTheRightGear = () => {
       bigButton: {
       	fontSize: "32px",
       	color: "#4351b7",
-      	textTransform: 'none',
-      	paddingBottom: '15px'
+      	textTransform: 'none'
       },
+
       layer: {
 	    backgroundColor: 'rgba(248, 247, 247, 0.6)',
 	    position: 'absolute',
@@ -134,8 +134,8 @@ const JustTheRightGear = () => {
 	return (
 		<Paper elevation={1} style={styles.paperContainer}>
 		<div style={styles.layer}>
-		<h1 style={styles.h1Style}><Button style={styles.bigButton} variant="text" component={Link}
-          to={"/"}>Deep Lake Sound Studio</Button> </h1>
+		<h1 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
+          to={"/"}>Deep Lake Sound Studio</Button></h1>
         <h2 style={styles.h2Style}>
           Just the right gear...
         </h2>

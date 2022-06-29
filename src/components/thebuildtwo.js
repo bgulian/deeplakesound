@@ -50,9 +50,7 @@ export default function TheBuildTwo() {
       bigButton: {
         fontSize: "32px",
         color: "#4351b7",
-        textTransform: 'none',
-        paddingBottom: '15px',
-        margin: "0px 0px 0px 0px"
+        textTransform: 'none'
       },
       gridList: {
         width: "1000",
@@ -87,8 +85,8 @@ export default function TheBuildTwo() {
 
   return (
     <div style={styles.paperContainer}>
-      <h1 style={styles.h1Style}><Button style={styles.bigButton} variant="text" component={Link}
-          to={"/"}>Deep Lake Sound Studio</Button> </h1>
+      <h1 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
+          to={"/"}>Deep Lake Sound Studio</Button></h1>
       <ImageList cellHeight={300}  spacing={30} style={styles.gridList}>
         <ImageListItem key="Subheader" cols={2} style={styles.imageListItem}>
           <ListSubheader component="div"></ListSubheader>
