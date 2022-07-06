@@ -145,6 +145,11 @@ const itemData = [
 	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/CelloPainting.jpg',
 	"title": "Cello!",
 	"desc": "Deep Lake Sound, baffles go up next"
+},
+{
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/summerpig.jpg',
+	"title": "Summer at DLS",
+	"desc": "Deep Lake Sound, summertime"
 }
 
 ]
