@@ -68,6 +68,15 @@ const Samples = () => {
                   <code>audio</code> element.
           </audio>
         </figure>
+        <figure style={styles.figureStyle}>
+          <figcaption>Overexposed (HD)- Bob Gulian:</figcaption>
+          <audio
+              controls
+              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/OverExposed-Master.wav">
+                  Your browser does not support the
+                  <code>audio</code> element.
+          </audio>
+        </figure>
         <figure>
          <figcaption style={styles.figureStyle}>Latest Album - 33 1/3 - Bob Gulian:</figcaption>
         <a style={styles.linkStyle} href="https://open.spotify.com/album/7wNjFCFfd45qewLA9VI8ZM">33 1/3</a>
