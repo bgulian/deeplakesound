@@ -19,7 +19,33 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
+  "display": "browser",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "About Us",
+      "short_name": "About",
+      "description": "Our philosophy and some pics",
+      "url": "/about",
+    },
+    {
+      "name": "The Build?",
+      "short_name": "Build",
+      "description": "Building Deep Lake Sound",
+      "url": "/thebuildtwo",
+    }
+     
+  ],
+  "description": "DeeplakeSound Front Page",
+  "screenshots": [
+    {
+      "src": "https://deeplakesound.fra1.digitaloceanspaces.com/images/DeepLakeSoundPage.jpg",
+      "type": "image/jpg",
+      "sizes": "540x720"
+    }
+  
+  ]
 }
