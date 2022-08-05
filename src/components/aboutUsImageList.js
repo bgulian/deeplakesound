@@ -25,9 +25,24 @@ const morePics = [
 	"desc": "Check those bays, everything goes to everything."
 },
 {
-	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/stillbuilding.jpg',
-	"title": "Chair - great for listening, bad for playing!",
-	"desc": "We're still building!"
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/PurpleSession.jpg',
+	"title": "Purple session",
+	"desc": "Mood lighting"
+},
+{
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/RoseThroopSing.jpg',
+	"title": "Rose and the Amateurs making a demo",
+	"desc": "Saturday afternoon fun"
+},
+{
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/RonThroopPlays.jpg',
+	"title": "Ron Throop - stand and record!",
+	"desc": "Saturday afternoon fun"
+},
+{
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/GreenSession.jpg',
+	"title": "Green Session",
+	"desc": "Under the Deep Lake"
 },
 {
 	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/sc3070andNS10.jpg',
@@ -38,6 +53,11 @@ const morePics = [
 	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/drumboothlow.jpg',
 	"title": "Drum Booth with Coraline",
 	"desc": "Six mic drum setup"
+},
+{
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/RonAndMike.jpg',
+	"title": "Ron and Mike of Rose and the Amateurs",
+	"desc": "Mike is not a headphone guy"
 },
 {
 	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/caligarideeplake.jpg',

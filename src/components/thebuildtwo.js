@@ -23,7 +23,6 @@ export default function TheBuildTwo() {
       paperContainer: {
       display: 'flex',
       flexWrap: 'wrap',
-      justifyContent: 'space-around',
       overflow: 'hidden',
       backgroundColor: "white"
       },
