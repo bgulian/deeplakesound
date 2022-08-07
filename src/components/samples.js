@@ -63,7 +63,7 @@ const Samples = () => {
           <figcaption>I Resist (HD)- Bob Gulian:</figcaption>
           <audio
               controls
-              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/I%20Persist%20-%20MAIN.wav">
+              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/I%20Resist%20-%20Master.wav">
                   Your browser does not support the
                   <code>audio</code> element.
           </audio>
