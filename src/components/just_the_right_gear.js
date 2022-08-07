@@ -58,6 +58,7 @@ const JustTheRightGear = () => {
 				<li>Mac Studio - M1 Max</li>
 				<li>Universal Audio x16</li>
 				<li>Universal Audio x8</li>
+				<li>Eve SC3070 Monitors, Yamaha NS 10s</li>
 			</ul>
 			</div>
 			)
@@ -77,6 +78,7 @@ const JustTheRightGear = () => {
 				<li>Dbx 760x (2 channels)</li>
 				<li>API 512c</li>
 				<li>Silver Bullet (2 channels)</li>
+				<li>Audio Design Pacifica (2 channels)</li>
 				<li>UAD (x8) Unison Pres (4 channels)</li>
 			</ul>
 			</div>
@@ -94,7 +96,7 @@ const JustTheRightGear = () => {
 				<li>Art Pro VLA II (stereo)</li>
 				<li>LTLO Silver Bullet Tone Shaper (2 channels)</li>
 				<li>Tree Audio LG 2a</li>
-				<li>DIYRE CP5A</li>
+				<li>DIYRE EQP5</li>
 				<li>Shadow Hills Vandergraph (2 channels)</li>
 				<li>Really Nice Compressor (2 channels)</li>
 				<li>Elysia XFilter (stereo)</li>
@@ -125,7 +127,9 @@ const JustTheRightGear = () => {
 				<li>Audix D4</li>
 				<li>Shure SM 57 (3)</li>
 				<li>Mic Parts S12</li>
+				<li>Studio Projects C1 (Mic Parts Mod)</li>
 				<li>Litte Gems (2)</li>
+				<li>Rode N-1a (for testing preamps and talkback)</li>
 			</ul>
 			</div>
 			)
