@@ -135,6 +135,28 @@ const JustTheRightGear = () => {
 			)
 	}
 
+	const instruments = () => {
+		return (
+			<div style={styles.gearBlock}>
+  			<Typography variant="h5" component="h1" gutterBottom>
+				<h5>Instruments</h5>
+			</Typography>
+			<ul>
+				<li>DW Design Series Drum Kit</li>
+				<li>Supraphonic and Pearl snares</li>
+				<li>Ampeg Portaflex tube top and cabinet</li>
+				<li>Fender Super 60 with either native tube map or Vox nanotube top</li>
+				<li>Kamarasco Seagull Nylon</li>
+				<li>Fernandez Strat clone with humbucker</li>
+				<li>Delay, Chorus, and Tumnus pedals</li>
+				<li>Washburn (Gibson clone)</li>
+				<li>Yamaha p50 weighted keys keyboard with multiple acoustic sampled pianos</li>
+				<li>BYOI!</li>
+			</ul>
+			</div>
+			)
+	}
+
 	return (
 		<Paper elevation={1} style={styles.paperContainer}>
 		<div style={styles.layer}>
@@ -147,6 +169,7 @@ const JustTheRightGear = () => {
 		{preamps()}
 		{effects()}
 		{mics()}
+		{instruments()}
 		</div>
 		</Paper>
 		);

@@ -16,7 +16,7 @@ const LandingPage = (props) => {
     ...theme.typography.body2,
     padding: theme.spacing(1),
     backgroundRepeat: 'no-repeat',
-    backgroundImage: `url("https://deeplakesound.fra1.digitaloceanspaces.com/images/notmessybig.jpg")`,
+    backgroundImage:  `url("https://deeplakesound.fra1.digitaloceanspaces.com/images/nightlights.jpg")`,
     backgroundPosition: "top center",
     minHeight: `1200px`,
     textAlign: 'center',

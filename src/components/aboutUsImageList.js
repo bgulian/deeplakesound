@@ -7,9 +7,9 @@ const aboutData = [
 	"desc": "Control room, live room, drum booth and vocal booth all in one."
 },
 {
-	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/thedeeplakefog.jpg',
-	"title": "Oswego Lighthouse in the fog",
-	"desc": "Salty! Except...not."
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/RoseThroopSing.jpg',
+	"title": "Rose and the Amateurs making a demo",
+	"desc": "Saturday afternoon fun"
 }
 ];
 
@@ -30,9 +30,9 @@ const morePics = [
 	"desc": "Mood lighting"
 },
 {
-	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/RoseThroopSing.jpg',
-	"title": "Rose and the Amateurs making a demo",
-	"desc": "Saturday afternoon fun"
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/thedeeplakefog.jpg',
+	"title": "Oswego Lighthouse in the fog",
+	"desc": "Salty! Except...not."
 },
 {
 	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/RonThroopPlays.jpg',
