@@ -46,7 +46,11 @@ const LandingPage = (props) => {
   	<Typography variant="h3" component="h1" gutterBottom>
 
   		<h2 style={styles.h1Style}>Deep Lake Sound Studio</h2>
-      
+        <MenuItem
+          component={Link}
+          to={"./about"}
+           style={styles.mitemBlock}
+        >About Us</MenuItem>
         <MenuItem
           component={Link}
           to={"./just_the_right_gear"}
@@ -62,11 +66,6 @@ const LandingPage = (props) => {
           to={"./thebuildtwo"}
            style={styles.mitemBlock}
         >The Build</MenuItem>
-        <MenuItem
-          component={Link}
-          to={"./about"}
-           style={styles.mitemBlock}
-        >About Us</MenuItem>
         <MenuItem
            onClick={(e) => {e.preventDefault(); setContact(!contact)}}
            style={styles.mitemBlock}

@@ -146,6 +146,7 @@ const JustTheRightGear = () => {
 				<li>Supraphonic and Pearl snares</li>
 				<li>Ampeg Portaflex tube top and cabinet</li>
 				<li>Fender Super 60 with either native tube map or Vox nanotube top</li>
+				<li>Fender Princeton Reverb amp</li>
 				<li>Kamarasco Seagull Nylon</li>
 				<li>Fernandez Strat clone with humbucker</li>
 				<li>Delay, Chorus, and Tumnus pedals</li>

@@ -2,7 +2,7 @@
 
 const aboutData = [
 {
-	"img": "https://deeplakesound.fra1.digitaloceanspaces.com/images/StudioLookingDown.jpg",
+	"img": "https://deeplakesound.fra1.digitaloceanspaces.com/images/baffles-.5x.jpg",
 	"title": "The Front Of House",
 	"desc": "Control room, live room, drum booth and vocal booth all in one."
 },
@@ -15,9 +15,14 @@ const aboutData = [
 
 const morePics = [
 {
-	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/AmpsDrums.jpg',
-	"title": "Drum booth and odd guitars and amps",
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/baffle-drums.jpg',
+	"title": "Drum booth",
 	"desc": "The load side"
+},
+{
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/baffles-1x.jpg',
+	"title": "Deep Lake Studio on a grey day",
+	"desc": "Reflexions absorbed."
 },
 {
 	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/Racks.jpg',
