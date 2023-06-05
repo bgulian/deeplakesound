@@ -100,7 +100,7 @@ const JustTheRightGear = () => {
 				<li>Shadow Hills Vandergraph (2 channels)</li>
 				<li>Really Nice Compressor (2 channels)</li>
 				<li>Elysia XFilter (stereo)</li>
-				<li>2 Klark Teknik EQP 1a's that don't do anything great but have nice amber lights</li>
+				<li>Audioscape EQP-A (2)</li>
 			</ul>
 			</div>
 			)
@@ -112,6 +112,7 @@ const JustTheRightGear = () => {
 				<h5>Microphones</h5>
 			</Typography>
 			<ul>
+				<li>UAD Sphere DLX (vintage mic emulator)</li>
 				<li>Neumann - km 184 (2)</li>
 				<li>Neumann - U87 AI</li>
 				<li>Neumann - TLM 102</li>

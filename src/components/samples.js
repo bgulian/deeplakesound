@@ -51,12 +51,12 @@ const Samples = () => {
         </h2>
         
          <figure style={styles.figureStyle}>
-          <figcaption>Two To Fly (HD)- Bob Gulian:</figcaption>
+          <figcaption>Disappeared (HD)- Bob Gulian:</figcaption>
           <audio
               controls
-              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/TwoToFly-Master%20-%20MAIN.wav">
+              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/Disappeared.wav">
                   Your browser does not support the
-                  <code>audio</code> element.
+                  <code>audio</code> element. 
           </audio>
         </figure>
         <figure style={styles.figureStyle}>
@@ -69,10 +69,10 @@ const Samples = () => {
           </audio>
         </figure>
         <figure style={styles.figureStyle}>
-          <figcaption>Overexposed (HD)- Bob Gulian:</figcaption>
+          <figcaption>Under A Streetlight... (HD)- Bob Gulian:</figcaption>
           <audio
               controls
-              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/OverExposed-Master.wav">
+              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/UnderAStreetlightInTheRain.wav">
                   Your browser does not support the
                   <code>audio</code> element.
           </audio>
