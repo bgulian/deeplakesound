@@ -72,6 +72,7 @@ const JustTheRightGear = () => {
 			<ul>
 				<li>RND 511 (2)</li>
 				<li>RND 517 </li>
+				<li>UA 6176 </li>
 				<li>Vintech x73i (2)</li>
 				<li>Grace Design m201 mk2 (2 channels)</li>
 				<li>DAK II mk2 (2 channels)</li>
@@ -101,6 +102,7 @@ const JustTheRightGear = () => {
 				<li>Really Nice Compressor (2 channels)</li>
 				<li>Elysia XFilter (stereo)</li>
 				<li>Audioscape EQP-A (2)</li>
+				<li>UA 6176 Compressor></li>
 			</ul>
 			</div>
 			)
@@ -123,9 +125,11 @@ const JustTheRightGear = () => {
 				<li>AKG 414 BULS</li>
 				<li>BeyerDynamic TG 201</li>
 				<li>Sennheiser 421</li>
+				<li>Royer R121 Ribbon</i>
 				<li>Royer R10 Ribbons (2)</li>
 				<li>Audix D2</li>
 				<li>Audix D4</li>
+				<li>Sennheiser 609</li>
 				<li>Shure SM 57 (3)</li>
 				<li>Mic Parts S12</li>
 				<li>Studio Projects C1 (Mic Parts Mod)</li>
