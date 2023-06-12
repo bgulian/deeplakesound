@@ -79,8 +79,10 @@ const JustTheRightGear = () => {
 				<li>Dbx 760x (2 channels)</li>
 				<li>API 512c</li>
 				<li>Silver Bullet (2 channels)</li>
+				<li>SSL SiX</li>
 				<li>Audio Design Pacifica (2 channels)</li>
 				<li>UAD (x8) Unison Pres (4 channels)</li>
+				<li>UAD 6176</li>
 			</ul>
 			</div>
 		)
@@ -99,10 +101,10 @@ const JustTheRightGear = () => {
 				<li>Tree Audio LG 2a</li>
 				<li>DIYRE EQP5</li>
 				<li>Shadow Hills Vandergraph (2 channels)</li>
-				<li>Really Nice Compressor (2 channels)</li>
 				<li>Elysia XFilter (stereo)</li>
 				<li>Audioscape EQP-A (2)</li>
 				<li>UA 6176 Compressor></li>
+				<li>SSL SiX - SSL Buss Comp (2)</li>
 			</ul>
 			</div>
 			)
