@@ -22,8 +22,6 @@ const ContactStuff = (props) => {
     <Item >
   	<Typography variant="h5" component="p" gutterBottom>
   		<p>Email: Bob at bgulian@gmail.com</p>
-      <p>Studio Tour: Call for an appt. 914-589-7484</p> 
-      <a href="https://www.oswegony.org/">Oswego, NY</a>
     </Typography>
      </Item>
      
