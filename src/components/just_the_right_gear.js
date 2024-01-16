@@ -82,7 +82,6 @@ const JustTheRightGear = () => {
 				<li>SSL SiX</li>
 				<li>Audio Design Pacifica (2 channels)</li>
 				<li>UAD (x8) Unison Pres (4 channels)</li>
-				<li>UAD 6176</li>
 			</ul>
 			</div>
 		)
@@ -135,7 +134,7 @@ const JustTheRightGear = () => {
 				<li>Audix D4</li>
 				<li>Sennheiser 609</li>
 				<li>Shure SM 57 (3)</li>
-				<li>Soyuz 1973<li>
+				<li>Soyuz 1973</li>
 				<li>Mic Parts S12</li>
 				<li>Studio Projects C1 (Mic Parts Mod)</li>
 				<li>Litte Gems (2)</li>
