@@ -104,6 +104,7 @@ const JustTheRightGear = () => {
 				<li>Elysia XFilter (stereo)</li>
 				<li>Audioscape EQP-A (2)</li>
 				<li>UA 6176 Compressor></li>
+				<li>UA LA-610 Compressor></li>
 				<li>SSL SiX - SSL Buss Comp (2)</li>
 			</ul>
 			</div>
@@ -125,14 +126,16 @@ const JustTheRightGear = () => {
 				<li>Stam SA87</li>
 				<li>Warbler MKID</li>
 				<li>AKG 414 BULS</li>
+				<li>BeyerDynamic m88 TG</li>
 				<li>BeyerDynamic TG 201</li>
 				<li>Sennheiser 421</li>
-				<li>Royer R121 Ribbon</i>
+				<li>Royer R121 Ribbon</li>
 				<li>Royer R10 Ribbons (2)</li>
 				<li>Audix D2</li>
 				<li>Audix D4</li>
 				<li>Sennheiser 609</li>
 				<li>Shure SM 57 (3)</li>
+				<li>Soyuz 1973<li>
 				<li>Mic Parts S12</li>
 				<li>Studio Projects C1 (Mic Parts Mod)</li>
 				<li>Litte Gems (2)</li>
@@ -149,16 +152,7 @@ const JustTheRightGear = () => {
 				<h5>Instruments</h5>
 			</Typography>
 			<ul>
-				<li>DW Design Series Drum Kit</li>
-				<li>Supraphonic and Pearl snares</li>
-				<li>Ampeg Portaflex tube top and cabinet</li>
-				<li>Fender Super 60 with either native tube map or Vox nanotube top</li>
-				<li>Fender Princeton Reverb amp</li>
-				<li>Kamarasco Seagull Nylon</li>
-				<li>Fernandez Strat clone with humbucker</li>
-				<li>Delay, Chorus, and Tumnus pedals</li>
-				<li>Washburn (Gibson clone)</li>
-				<li>Yamaha p50 weighted keys keyboard with multiple acoustic sampled pianos</li>
+				<li>Stuff</li>
 				<li>BYOI!</li>
 			</ul>
 			</div>
