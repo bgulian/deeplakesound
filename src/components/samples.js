@@ -7,7 +7,7 @@ const Samples = () => {
 	const styles = {
       paperContainer: {
           backgroundRepeat: 'no-repeat',
-          backgroundImage: `url("https://deeplakesound.fra1.digitaloceanspaces.com/images/nightlights.jpg")`,
+          backgroundImage: `url("https://deeplakesound.fra1.digitaloceanspaces.com/images/thedeeplakefog.jpg")`,
           minHeight: `1200px`,
           margin: "0px 40px 0px 40px"
       	},
@@ -49,33 +49,11 @@ const Samples = () => {
         <h2 style={styles.h2Style}>
           Audio Samples
         </h2>
-        
-         <figure style={styles.figureStyle}>
-          <figcaption>Disappeared (HD)- Bob Gulian:</figcaption>
-          <audio
-              controls
-              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/Disappeared.wav">
-                  Your browser does not support the
-                  <code>audio</code> element. 
-          </audio>
-        </figure>
         <figure style={styles.figureStyle}>
-          <figcaption>I Resist (HD)- Bob Gulian:</figcaption>
-          <audio
-              controls
-              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/I%20Resist%20-%20Master.wav">
-                  Your browser does not support the
-                  <code>audio</code> element.
-          </audio>
-        </figure>
-        <figure style={styles.figureStyle}>
-          <figcaption>Under A Streetlight... (HD)- Bob Gulian:</figcaption>
-          <audio
-              controls
-              src="https://deeplakesound.fra1.digitaloceanspaces.com/audiosamples/UnderAStreetlightInTheRain.wav">
-                  Your browser does not support the
-                  <code>audio</code> element.
-          </audio>
+          <figcaption>Cold Case - new album by Bob Gulian with the Recliners:</figcaption>
+         <a style={styles.linkStyle} href="https://deeplakesound.com/coldcase">
+          <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/coldcasecover1600.jpg" width="400px" height="400px" />
+          </a>
         </figure>
         <figure>
          <figcaption style={styles.figureStyle}>Latest Album - 33 1/3 - Bob Gulian:</figcaption>

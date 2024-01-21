@@ -5,6 +5,7 @@ import JustTheRightGear from './components/just_the_right_gear';
 import Samples from './components/samples';
 import TheBuildTwo from './components/thebuildtwo';
 import About from "./components/about";
+import ColdCase from "./components/coldcase"
 import {
   BrowserRouter as Router,
   Routes,
@@ -23,6 +24,7 @@ function App() {
           <Route path="/samples" element={ <Samples />} />
           <Route path="/thebuildtwo" element={ <TheBuildTwo />} />
           <Route path="/about" element={ <About />} />
+          <Route path="/coldcase" element={ <ColdCase />} />
         </Routes>
        
       </div>
