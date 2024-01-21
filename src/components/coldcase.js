@@ -55,7 +55,7 @@ return (
             <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/coldcasecover1600.jpg" width="300px" height="300px" />
          </figure>
         <figure style={styles.figureStyle}>
-          <figcaption>There I Said It - Bob Gulian the Recliners:</figcaption>
+          <figcaption>There I Said It - Bob Gulian with the Recliners:</figcaption>
           <audio
               controls
               src="https://deeplakesound.fra1.digitaloceanspaces.com/coldcaseaudio/There%20I%20Said%20It.wav">
