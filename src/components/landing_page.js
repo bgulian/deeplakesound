@@ -36,7 +36,7 @@ const LandingPage = (props) => {
       mitemBlock: {
         padding: "10px 10px 10px 10px",
         margin: "0px 70px 0px 100px",
-        color: 'blue'
+        color: 'violet'
       }
   };
   return (
