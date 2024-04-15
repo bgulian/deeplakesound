@@ -1,4 +1,4 @@
-
+import React  from 'react';
 import Typography from '@mui/material/Typography';
 import LandingPage from './components/landing_page';
 import JustTheRightGear from './components/just_the_right_gear';

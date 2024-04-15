@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React,{ useState } from "react";
 import  '../eightst_styles.css';
 import { styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
