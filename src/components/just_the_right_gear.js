@@ -76,8 +76,9 @@ const JustTheRightGear = () => {
 				<li>Vintech x73i (2)</li>
 				<li>Grace Design m201 mk2 (2 channels)</li>
 				<li>DAK II mk2 (2 channels)</li>
-				<li>Dbx 760x (2 channels)</li>
+				<li>Dbx 760 x (2 channels)</li>
 				<li>API 512c</li>
+				<li>CAPI 312 (2)</li>
 				<li>Silver Bullet (2 channels)</li>
 				<li>SSL SiX</li>
 				<li>Audio Design Pacifica (2 channels)</li>
@@ -102,6 +103,9 @@ const JustTheRightGear = () => {
 				<li>Shadow Hills Vandergraph (2 channels)</li>
 				<li>Elysia XFilter (stereo)</li>
 				<li>Audioscape EQP-A (2)</li>
+				<li>Harrison Comp (2)</li>
+				<li>Great River Harrison 32 EQ</li>
+				<li>SSL E-EQ</li>
 				<li>UA 6176 Compressor></li>
 				<li>UA LA-610 Compressor></li>
 				<li>SSL SiX - SSL Buss Comp (2)</li>

@@ -32,12 +32,11 @@
       "url": "/about",
     },
     {
-      "name": "The Build?",
+      "name": "The Build",
       "short_name": "Build",
       "description": "Building Deep Lake Sound",
       "url": "/thebuildtwo",
     }
-     
   ],
   "description": "DeeplakeSound Front Page",
   "screenshots": [
