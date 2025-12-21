@@ -7,6 +7,7 @@ const aboutData = [
 	"desc": "Control room, live room, drum booth and vocal booth all in one."
 },
 {
+	
 	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/RoseThroopSing.jpg',
 	"title": "Rose and the Amateurs making a demo",
 	"desc": "Saturday afternoon fun"
@@ -14,6 +15,11 @@ const aboutData = [
 ];
 
 const morePics = [
+{
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/baffle-drums.jpg',
+	"title": "Drum booth",
+	"desc": "The load side"
+},
 {
 	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/baffle-drums.jpg',
 	"title": "Drum booth",

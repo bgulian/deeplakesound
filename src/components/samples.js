@@ -48,12 +48,12 @@ const Samples = () => {
 		<h1 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
           to={"/"}>Deep Lake Sound Studio</Button></h1>
         <h2 style={styles.h2Style}>
-          Audio Samples
+          Two Songs
         </h2>
         <figure style={styles.figureStyle}>
-          <figcaption>Cold Case - new album by Bob Gulian with the Recliners:</figcaption>
-         <a style={styles.linkStyle} href="https://deeplakesound.com/coldcase">
-          <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/coldcasecover1600.jpg" width="400px" height="400px" />
+          <figcaption>Breakwall - new album by Bob Gulian:</figcaption>
+         <a style={styles.linkStyle} href="https://deeplakesound.com/breakwall.js">
+          <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/BreakwallBetter.jpg" width="400px" height="400px" />
           </a>
         </figure>
         <figure>

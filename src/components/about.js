@@ -77,8 +77,8 @@ const About = () => {
           About Us
         </h2>
         <p style={styles.pStyle}>Great Records can be recorded like <a href="https://www.1854.photography/wp-content/uploads/2016/04/Image-2-Landy.jpg">this</a>  and <a href="https://www.skiddle.com/news/all/Throwback-Thursday-Radiohead-OK-Computer-/27043/">this</a></p>
-        <p style={styles.pStyle}>Deeplake Sound is currently an invitation-only (not a business) music and voice-over studio for friends and family. 
-        Not to mention that in the winter, when all the leaves are off the trees, you can see the deep lake from the studio.</p>
+        <p style={styles.pStyle}>Deeplake Sound is currently an invitation-only music and voice-over studio for our friends. Please call for friendship opportunities :) . 
+        In the winter, when all the leaves are off the trees, you can see the deep lake from the studio.</p>
         <ImageList cellHeight={300}  spacing={30} style={styles.gridList}>
         <ImageListItem key="Subheader" cols={2} style={styles.imageListItem}>
           <ListSubheader component="div">Its about vibe and flexibility</ListSubheader>

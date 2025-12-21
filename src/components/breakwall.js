@@ -4,7 +4,7 @@ import  '../eightst_styles.css';
 import Paper from '@mui/material/Paper';
 import { Link } from 'react-router-dom';
 
-const ColdCase = () => {
+const Breakwall = () => {
 	const styles = {
     //40px 0px 40px
       paperContainer: {
@@ -52,25 +52,36 @@ return (
     <h3 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
           to={"/"}>Deep Lake Sound</Button></h3>
         <h2 style={styles.h2Style}>
-          Cold Case - Bob Gulian with the Recliners - coming February, 2024
+          Breakwall - Bob Gulian - coming January, 2026
         </h2>
          <figure style={styles.figureStyle}>
-            <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/coldcasecover1600.jpg" width="300px" height="300px" />
+            <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/BreakwallBetter.jpg" width="300px" height="300px" />
          </figure>
         <figure style={styles.figureStyle}>
-          <figcaption>There I Said It - Bob Gulian with the Recliners:</figcaption>
+          <figcaption>I Still Sing - Bob Gulian:</fi gcaption>
           <audio
               controls
-              src="https://deeplakesound.fra1.digitaloceanspaces.com/coldcaseaudio/There%20I%20Said%20It.wav">
+              src="https://deeplakesound.fra1.digitaloceanspaces.com/audio/I%20Still%20Sing.wav">
                   Your browser does not support the
                   <code>audio</code> element. 
           </audio>
         </figure>
         <figure style={styles.figureStyle}>
-          <figcaption>Disappeared - Bob Gulian with the Recliners:</figcaption>
+          <figcaption>Changed My Mind Again - Bob Gulian (Instrumental):</fi gcaption>
           <audio
               controls
+              src="https://deeplakesound.fra1.digitaloceanspaces.com/audio/Changed%20My%20Mind%20Again.wav">
+                  Your browser does not support the
+                  <code>audio</code> element. 
+          </audio>
+        </figure>
+         <figure style={styles.figureStyle}>
+         <figcaption style={styles.figureStyle}>33 1/3 Album - <strong>33 1/3</strong> - Bob Gulian:</figcaption>
+       <a style={styles.linkStyle} href="https://open.spotify.com/album/7wNjFCFfd45qewLA9VI8Z">33 1/3</a>
+        </figure>
+        </Paper>
+    );
+}
 
+export default ColdCase;
 
-
-              

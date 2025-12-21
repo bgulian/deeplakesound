@@ -8,6 +8,7 @@ import { MenuItem } from '@mui/material';
 import { Link } from 'react-router-dom';
 import ContactStuff from './contact';
 
+
 const LandingPage = (props) => {
   const [contact, setContact] = useState(false)
 

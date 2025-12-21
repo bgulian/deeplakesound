@@ -86,7 +86,7 @@ export default function TheBuildTwo() {
     <div style={styles.paperContainer}>
       <h1 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
           to={"/"}>Deep Lake Sound Studio</Button></h1>
-      <ImageList cellHeight={300}  spacing={30} style={styles.gridList}>
+      <ImageList rowHeight={300} gap={30} sx={styles.gridList}>>
         <ImageListItem key="Subheader" cols={2} style={styles.imageListItem}>
           <ListSubheader component="div"></ListSubheader>
         </ImageListItem>
