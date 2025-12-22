@@ -51,14 +51,10 @@ const Samples = () => {
           Two Songs
         </h2>
         <figure style={styles.figureStyle}>
-          <figcaption>Breakwall - new album by Bob Gulian:</figcaption>
-         <a style={styles.linkStyle} href="https://deeplakesound.com/breakwall.js">
+          <figcaption></figcaption>
+         <a style={styles.linkStyle} href="https://www.deeplakesound.com/breakwall">
           <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/BreakwallBetter.jpg" width="400px" height="400px" />
           </a>
-        </figure>
-        <figure>
-         <figcaption style={styles.figureStyle}>Latest Album - 33 1/3 - Bob Gulian:</figcaption>
-        <a style={styles.linkStyle} href="https://open.spotify.com/album/7wNjFCFfd45qewLA9VI8ZM">33 1/3</a>
         </figure>
         </Paper>
 		);
