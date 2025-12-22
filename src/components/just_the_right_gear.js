@@ -80,7 +80,8 @@ const JustTheRightGear = () => {
 				<li>DAK II mk2 (2 channels)</li>
 				<li>API 512c</li>
 				<li>CAPI 312 (2)</li>
-				<li>Silver Bullet (2 channels)</li>
+				<li>BAE 73MPL</li>
+				<li>Neve 1073LB</li>
 				<li>SSL SiX (2 channels)</li>
 				<li>Audio Design Pacifica (2 channels)</li>
 				<li>UAD (x8) Unison Pres (4 channels)</li>
@@ -98,7 +99,6 @@ const JustTheRightGear = () => {
 			<ul>
 				<li>Dbx 560a (Revive Modified) (2)</li>
 				<li>Art Pro VLA II (stereo)</li>
-				<li>LTLO Silver Bullet Tone Shaper (2 channels)</li>
 				<li>Tree Audio LG 2a</li>
 				<li>DIYRE EQP5</li>
 				<li>Shadow Hills Vandergraph (2 channels)</li>
@@ -129,7 +129,8 @@ const JustTheRightGear = () => {
 				<li>Neumann - TLM 102</li>
 				<li>Audio Technica - 4050</li>
 				<li>Audio Technica - 2035 - MicParts Mod</li>
-				<li>Stam SA87</li>
+				<li>Stam SA87 (2)</li>
+				<li>Stam SA47 FET</li>
 				<li>Warbler MKID</li>
 				<li>AKG 414 BULS</li>
 				<li>BeyerDynamic m88 TG</li>

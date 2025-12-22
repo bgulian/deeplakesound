@@ -48,7 +48,7 @@ const Samples = () => {
 		<h1 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
           to={"/"}>Deep Lake Sound Studio</Button></h1>
         <h2 style={styles.h2Style}>
-          Two Songs
+          Recorded at Deeplake Sound
         </h2>
         <figure style={styles.figureStyle}>
           <figcaption></figcaption>
