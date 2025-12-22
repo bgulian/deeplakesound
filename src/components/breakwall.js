@@ -58,7 +58,7 @@ return (
             <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/BreakwallBetter.jpg" width="300px" height="300px" />
          </figure>
         <figure style={styles.figureStyle}>
-          <figcaption>I Still Sing - Bob Gulian:</fi gcaption>
+          <figcaption>I Still Sing - Bob Gulian:</figcaption>
           <audio
               controls
               src="https://deeplakesound.fra1.digitaloceanspaces.com/audio/I%20Still%20Sing.wav">
@@ -67,7 +67,7 @@ return (
           </audio>
         </figure>
         <figure style={styles.figureStyle}>
-          <figcaption>Changed My Mind Again - Bob Gulian (Instrumental):</fi gcaption>
+          <figcaption>Changed My Mind Again - Bob Gulian (Instrumental):</figcaption>
           <audio
               controls
               src="https://deeplakesound.fra1.digitaloceanspaces.com/audio/Changed%20My%20Mind%20Again.wav">
@@ -83,5 +83,5 @@ return (
     );
 }
 
-export default ColdCase;
+export default Breakwall;
 
