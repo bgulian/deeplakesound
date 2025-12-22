@@ -26,7 +26,7 @@ const Breakwall = () => {
       },
       figureStyle: {
         margin: "10px 5px 0px 20px",
-        color: "white"
+        color: "white"  
       },
 
       linkStyle: {
@@ -51,9 +51,9 @@ return (
     <Paper elevation={1} style={styles.paperContainer}>
     <h3 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
           to={"/"}>Deep Lake Sound</Button></h3>
-        <h2 style={styles.h2Style}>
+        <h4 style={styles.h2Style}>
           Breakwall - Bob Gulian - coming January, 2026
-        </h2>
+        </h4>
          <figure style={styles.figureStyle}>
             <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/BreakwallBetter.jpg" width="300px" height="300px" />
          </figure>
