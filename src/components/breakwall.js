@@ -19,7 +19,7 @@ const Breakwall = () => {
       },
       h2Style: {
       	padding: "10px 10px 10px 10px",
-      	margin: "0px 40px 0px 20px",
+      	margin: "10px 40px 0px 20px",
       	color: "black",
         wordWrap: "normal",
         maxWidth: "400px"

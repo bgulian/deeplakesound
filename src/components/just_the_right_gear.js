@@ -102,12 +102,13 @@ const JustTheRightGear = () => {
 				<li>Tree Audio LG 2a</li>
 				<li>DIYRE EQP5</li>
 				<li>Shadow Hills Vandergraph (2 channels)</li>
+				<li>AudioScape 4000 E Bus Compressor</li>
 				<li>Elysia XFilter (stereo)</li>
 				<li>Audioscape EQP-A (2)</li>
 				<li>Audioscape Opto Comp</li>
 				<li>Audioscape 76D Comp (2)</li>
 				<li>Harrison Comp (2)</li>
-				<li>Great River Harrison 32 EQ</li>
+				<li>RND 551 EQ</li>
 				<li>SSL 611-EQ (2)</li>
 				<li>UA 6176 Compressor></li>
 				<li>UA LA-610 Compressor></li>
@@ -159,7 +160,7 @@ const JustTheRightGear = () => {
 				<h5>Instruments</h5>
 			</Typography>
 			<ul>
-				<li>Stuff</li>
+				<li>Stuff (Kawaii,Fender,Washburn,Yamaha,Gretsch,Ampeg,DW Drums</li>
 				<li>BYOI!</li>
 			</ul>
 			</div>
