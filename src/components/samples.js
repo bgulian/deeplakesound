@@ -52,7 +52,7 @@ const Samples = () => {
         </h2>
         <figure style={styles.figureStyle}>
           <figcaption></figcaption>
-         <a style={styles.linkStyle} href="https://www.deeplakesound.com/breakwall">
+         <a style={styles.linkStyle} href="./breakwall">
           <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/BreakwallBetter.jpg" width="400px" height="400px" />
           </a>
         </figure>

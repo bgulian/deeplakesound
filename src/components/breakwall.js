@@ -2,6 +2,7 @@ import React  from 'react';
 import Button from '@mui/material/Button';
 import  '../eightst_styles.css';
 import Paper from '@mui/material/Paper';
+import LowVolumeAudioPlayer from './lowVolumeAudioPlayer';
 import { Link } from 'react-router-dom';
 
 const Breakwall = () => {
@@ -18,7 +19,7 @@ const Breakwall = () => {
       	//color: "white"
       },
       h2Style: {
-      	padding: "10px 10px 10px 10px",
+      	padding: "20px 10px 10px 10px",
       	margin: "10px 40px 0px 20px",
       	color: "black",
         wordWrap: "normal",
@@ -26,7 +27,8 @@ const Breakwall = () => {
       },
       figureStyle: {
         margin: "10px 5px 0px 20px",
-        color: "white"  
+        color: "white",
+        padding: "10px 10px 10px 10px",
       },
 
       linkStyle: {
@@ -58,22 +60,12 @@ return (
             <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/BreakwallBetter.jpg" width="300px" height="300px" />
          </figure>
         <figure style={styles.figureStyle}>
-          <figcaption>I Still Sing - Bob Gulian:</figcaption>
-          <audio
-              controls
-              src="https://deeplakesound.fra1.digitaloceanspaces.com/audio/I%20Still%20Sing.wav">
-                  Your browser does not support the
-                  <code>audio</code> element. 
-          </audio>
+          <figcaption>Canada - Bob Gulian</figcaption>
+          <LowVolumeAudioPlayer src="https://deeplakesound.fra1.digitaloceanspaces.com/audio/Canada-PTMix.wav" initialVolume={0.3} />
         </figure>
         <figure style={styles.figureStyle}>
-          <figcaption>Changed My Mind Again - Bob Gulian (Instrumental):</figcaption>
-          <audio
-              controls
-              src="https://deeplakesound.fra1.digitaloceanspaces.com/audio/Changed%20My%20Mind%20Again.wav">
-                  Your browser does not support the
-                  <code>audio</code> element. 
-          </audio>
+          <figcaption>Bang Fortune - Bob Gulian</figcaption>
+          <LowVolumeAudioPlayer src="https://deeplakesound.fra1.digitaloceanspaces.com/audio/Bang%20Fortune.wav" initialVolume={0.3} />
         </figure>
          <figure style={styles.figureStyle}>
          <figcaption style={styles.figureStyle}>33 1/3 Album - <strong>33 1/3</strong> - Bob Gulian:</figcaption>
