@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 const Breakwall = () => {
 	const styles = {
     //40px 0px 40px
+    //https://open.spotify.com/album/26xbqwFIAdnhYbVm1wqCG1?si=TlArtZHxToO4ewzf9yhJGA
       paperContainer: {
           backgroundRepeat: 'no-repeat',
           backgroundImage: `url("https://deeplakesound.fra1.digitaloceanspaces.com/images/CoolGlasses.jpg")`,
@@ -54,10 +55,12 @@ return (
     <h3 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
           to={"/"}>Deep Lake Sound</Button></h3>
         <h4 style={styles.h2Style}>
-          Breakwall - Bob Gulian - coming January, 2026
+          Breakwall - Bob Gulian - January 2026
         </h4>
          <figure style={styles.figureStyle}>
-            <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/BreakwallBetter.jpg" width="300px" height="300px" />
+            <a href="https://open.spotify.com/album/26xbqwFIAdnhYbVm1wqCG1?si=TlArtZHxToO4ewzf9yhJGA"><figcaption>Breakwall - Bob Gulian</figcaption>
+            <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/BreakwallBetter.jpg" width="300px" height="300px" alt='Breakwall - Bob Gulian'/>
+            </a>
          </figure>
         <figure style={styles.figureStyle}>
           <figcaption>Canada - Bob Gulian</figcaption>
