@@ -59,6 +59,7 @@ const JustTheRightGear = () => {
 				<li>Mac Studio - M1 Max</li>
 				<li>Universal Audio x16</li>
 				<li>Universal Audio x8</li>
+				<li>Universal Audio Volt 476 (mobile)</li>
 				<li>Eve SC3070 Monitors, Yamaha NS 10s</li>
 			</ul>
 			</div>
