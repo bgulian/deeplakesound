@@ -1,9 +1,12 @@
 # Multi-stage build for Deep Lake Sound - DigitalOcean App Platform
 
 # Stage 1: Build the client (Vite)
-FROM node:20-alpine AS client-builder
+FROM node:20-bullseye-slim AS client-builder
 
 WORKDIR /app
+
+# Reduce known vulnerabilities by updating base image packages
+RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
 
 # Copy root and client package files
 COPY package.json package-lock.json* ./
@@ -16,9 +19,12 @@ RUN npm install && \
     npm run build
 
 # Stage 2: Production runtime
-FROM node:20-alpine
+FROM node:20-bullseye-slim
 
 WORKDIR /app
+
+# Reduce known vulnerabilities by updating base image packages
+RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
 
 # Copy package files
 COPY package.json package-lock.json* ./
