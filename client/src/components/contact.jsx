@@ -1,30 +1,17 @@
 import React  from 'react';
 import  '../eightst_styles.css';
-import { styled } from '@mui/material/styles';
-import Typography from '@mui/material/Typography';
-import Paper from '@mui/material/Paper';
+import NavBar from './navbar.jsx';
+
 
 const ContactStuff = (props) => {
 
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    
-    minHeight: `100px`,
-    color: 'black',
-    textAlign: 'left'
-
-  }));
 
  
   return (
-   
-    <Item >
-  	<Typography variant="h5" component="p" gutterBottom>
-  		<p>Email: Bob at bgulian@gmail.com</p>
-    </Typography>
-     </Item>
+   <div className="bg-neutral-950 text-neutral-100 font-sans antialiased min-h-screen selection:bg-indigo-500 selection:text-white">
+		<NavBar />  
+    <p>Email: Bob at bgulian@gmail.com</p>
+   </div>
      
   	
   	

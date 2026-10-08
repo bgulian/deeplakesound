@@ -1,10 +1,10 @@
 services:
-  deeplakesoundclient:
-    image: deeplakesoundclient
+  deeplakesound:
+    image: deeplakesound
     build:
-      context: client
+      context: .
       dockerfile: ./Dockerfile
     environment:
       NODE_ENV: production
     ports:
-      - 3000:3000
+      - 8080:8080

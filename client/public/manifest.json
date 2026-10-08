@@ -22,19 +22,19 @@
   "display": "browser",
   "theme_color": "#3367D6",
   "background_color": "#ffffff",
-  "scope": "/"
+  "scope": "/",
   "shortcuts": [
     {
       "name": "About Us",
       "short_name": "About",
       "description": "Our philosophy and some pics",
-      "url": "/about",
+      "url": "/about"
     },
     {
       "name": "The Build",
       "short_name": "Build",
       "description": "Building Deep Lake Sound",
-      "url": "/thebuildtwo",
+      "url": "/thebuildtwo"
     }
   ],
   "description": "DeeplakeSound Front Page",

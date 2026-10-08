@@ -1,117 +1,93 @@
-import React from "react";
-import Button from '@mui/material/Button';
-import  '../eightst_styles.css';
-import { Link } from 'react-router-dom';
-import Snackbar from '@mui/material/Snackbar';
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
-import ImageListItemBar from '@mui/material/ImageListItemBar';
-import ListSubheader from '@mui/material/ListSubheader';
-import IconButton from '@mui/material/IconButton';
-import CloseIcon from '@mui/icons-material/Close';
-import InfoIcon from '@mui/icons-material/Info';
-import itemData from './imagelist'
-
-
+import React from 'react';
+import '../eightst_styles.css';
+import { useNavigate } from 'react-router-dom';
+import { Button } from '@base-ui/react/button';
+import NavBar from './navbar.jsx';
+import itemData from './imagelist';
 
 export default function TheBuildTwo() {
+  const navigate = useNavigate();
   const [open, setOpen] = React.useState(false);
-  const [currMessage, setCurrMessage] = React.useState("");
-  const [currPos, setCurPos] = React.useState({vertical:'top',horizontal:'center'});
+  const [currMessage, setCurrMessage] = React.useState('');
+
+  React.useEffect(() => {
+    if (!open) return undefined;
+
+    const timer = window.setTimeout(() => setOpen(false), 4000);
+    return () => window.clearTimeout(timer);
+  }, [open]);
 
   const styles = {
-      paperContainer: {
+    paperContainer: {
       display: 'flex',
       flexWrap: 'wrap',
       overflow: 'hidden',
-      backgroundColor: "white"
-      },
-
-      imageListItem: {
-        height: 'auto' 
-      },
-
-      h1Style: {
-        padding: "10px 10px 0px 0px",
-        margin: "0px 40px 0px 5px",
-        color: "black"
-      },
-      h2Style: {
-        padding: "10px 10px 10px 10px",
-        margin: "0px 40px 0px 65px",
-        color: "blue"
-      },
-      gearBlock: {
-        padding: "10px 10px 10px 10px",
-        margin: "0px 40px 0px 70px"
-      },
-
-      bigButton: {
-        fontSize: "32px",
-        color: "#4351b7",
-        textTransform: 'none'
-      },
-      gridList: {
-        width: "1000",
-        height: "1000",
-      },
-      icon: {
-        color: 'rgba(255, 255, 255, 0.54)',
-      }
-
-    };
+      
+      backgroundColor: 'white',
+    },
+    h1Style: {
+      padding: '10px 10px 0px 0px',
+      margin: '0px 40px 0px 5px',
+      color: 'black',
+    },
+  };
 
   const infoHandler = (desc) => {
-    setCurrMessage(desc)
-    setOpen(true)
-  }
+    setCurrMessage(desc || 'No details available.');
+    setOpen(true);
+  };
 
   const handleClose = () => {
-     setOpen(false)
-  }
-  const action = (
-    <React.Fragment>
-      <IconButton
-        size="small"
-        aria-label="close"
-        color="inherit"
-        onClick={handleClose}
-      >
-        <CloseIcon fontSize="small" />
-      </IconButton>
-    </React.Fragment>
-  );
+    setOpen(false);
+  };
 
   return (
-    <div style={styles.paperContainer}>
-      <h1 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
-          to={"/"}>Deep Lake Sound Studio</Button></h1>
-      <ImageList rowHeight={300} gap={30} sx={styles.gridList}>
-        <ImageListItem key="Subheader" cols={2} style={styles.imageListItem}>
-          <ListSubheader component="div"></ListSubheader>
-        </ImageListItem>
+   <div className="bg-neutral-950 text-neutral-100 font-sans antialiased min-h-screen selection:bg-indigo-500 selection:text-white">
+		
+      <NavBar />
+
+      <div className="grid w-full max-w-250 gap-7.5 px-4 pb-8 sm:grid-cols-2 xl:grid-cols-3">
         {itemData.map((tile) => (
-          <ImageListItem key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
-            <ImageListItemBar
-              title={tile.title}
-              actionIcon={
-                <IconButton aria-label={`info about ${tile.title}`} style={styles.icon} onClick={(e) => infoHandler(tile.desc)}>
-                  <InfoIcon />
-                </IconButton>
-              }
+          <div key={tile.img} className="group relative overflow-hidden rounded-md bg-white shadow-sm ring-1 ring-slate-200">
+            <img
+              src={tile.img}
+              alt={tile.title}
+              className="h-75 w-full object-cover transition duration-300 group-hover:scale-105"
             />
-          </ImageListItem>
+
+            <div className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-linear-to-t from-black/80 via-black/50 to-transparent px-3 py-2">
+              <span className="text-sm font-medium text-white">{tile.title}</span>
+              <button
+                type="button"
+                aria-label={`info about ${tile.title}`}
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/60"
+                onClick={() => infoHandler(tile.desc)}
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5 fill-current">
+                  <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm1 15h-2v-6h2Zm0-8h-2V7h2Z" />
+                </svg>
+              </button>
+            </div>
+          </div>
         ))}
-      </ImageList>
-      <Snackbar
-        anchorOrigin={{...currPos}}
-        open={open}
-        autoHideDuration={4000}
-        onClose={handleClose}
-        message={currMessage}
-        action={action}
-      />
+      </div>
+
+      {open && (
+        <div
+          role="status"
+          aria-live="polite"
+          className="fixed left-1/2 top-4 z-50 flex -translate-x-1/2 items-center gap-3 rounded-md bg-slate-900 px-4 py-3 text-sm text-white shadow-lg"
+        >
+          <span>{currMessage}</span>
+          <Button
+            type="button"
+            className="inline-flex items-center justify-center rounded border border-white/30 bg-transparent px-2 py-1 text-xs font-medium text-white transition hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            onClick={handleClose}
+          >
+            Close
+          </Button>
+        </div>
+      )}
     </div>
   );
 }

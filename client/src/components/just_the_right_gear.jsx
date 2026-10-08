@@ -1,62 +1,21 @@
 import React  from 'react';
-import Button from '@mui/material/Button';
+import { Button } from '@base-ui/react/button';
 import  '../eightst_styles.css';
-import Typography from '@mui/material/Typography';
+import NavBar from './navbar.jsx';
+
 import { Link } from 'react-router-dom';
-import Paper from '@mui/material/Paper';
+
 
 const JustTheRightGear = () => {
 
-	const styles = {
-      paperContainer: {
-      backgroundRepeat: 'no-repeat',
-      backgroundImage: `url("https://deeplakesound.fra1.digitaloceanspaces.com/images/gearshot.jpg")`,
-      backgroundPosition: 'top right',
-      minHeight: `1600px`,
-      margin: "0px 10px 0px 10px",
-      color: 'black'
-      },
-
-      h1Style: {
-      	padding: "10px 10px 0px 0px",
-      	margin: "0px 40px 0px 60px",
-      	color: "black"
-      },
-      h2Style: {
-      	padding: "10px 10px 10px 10px",
-      	margin: "0px 40px 0px 65px",
-      	color: "blue"
-      },
-      gearBlock: {
-      	padding: "10px 10px 10px 10px",
-      	margin: "0px 40px 0px 70px"
-      },
-
-      bigButton: {
-      	fontSize: "32px",
-      	color: "#4351b7",
-      	textTransform: 'none'
-      },
-
-      layer: {
-	    backgroundColor: 'rgba(248, 247, 247, 0.6)',
-	    position: 'absolute',
-	    minHeight: '1600px',
-	    top: '0',
-	    left: '0',
-	    width: '100%',
-	    height: '100%'
-		}
-
-  	};
 	const core = () => {
 		return (
-			<div style={styles.gearBlock}>
-  			<Typography variant="h5" component="h1" gutterBottom>
-				<h5>Core 24 Tracks:</h5>
-			</Typography>
+			<div className="gearBlock p-4 md:p-6">
+  			
+				<h5 className="border-purple-200 text-blue-600">Core 24 Tracks:</h5>
+	
 			<ul>
-				<li>Mac Studio - M1 Max</li>
+				<li>Mac Studio - M4 Max runnin Pro Tools 2026.4.1, Luna Studio</li>
 				<li>Universal Audio x16</li>
 				<li>Universal Audio x8</li>
 				<li>Universal Audio Volt 476 (mobile)</li>
@@ -67,10 +26,10 @@ const JustTheRightGear = () => {
 	}
 	const preamps = () => {
 		return (
-			<div style={styles.gearBlock}>
-  			<Typography variant="h5" component="h1" gutterBottom>
-				<h5>Preamps:</h5>
-			</Typography>
+			<div className="gearBlock p-4 md:p-6">
+  			
+				<h5 className="border-purple-200 text-blue-600">Preamps:</h5>
+			
 			<ul>
 				<li>RND 511 (2)</li>
 				<li>RND 517 </li>
@@ -93,10 +52,10 @@ const JustTheRightGear = () => {
 
 	const effects = () => {
 		return (
-			<div style={styles.gearBlock}>
-  			<Typography variant="h5" component="h1" gutterBottom>
-				<h5>Effects</h5>
-			</Typography>
+			<div className="gearBlock p-4 md:p-6">
+  			
+				<h5 className="border-purple-200 text-blue-600">Effects</h5>
+		
 			<ul>
 				<li>Dbx 560a (Revive Modified) (2)</li>
 				<li>Art Pro VLA II (stereo)</li>
@@ -110,20 +69,19 @@ const JustTheRightGear = () => {
 				<li>Audioscape 76D Comp (2)</li>
 				<li>Harrison Comp (2)</li>
 				<li>RND 551 EQ</li>
-				<li>SSL 611-EQ (2)</li>
+				<li>SSL 611-EQ (3)</li>
 				<li>UA 6176 Compressor</li>
 				<li>UA LA-610 Compressor</li>
 				<li>SSL SiX - SSL Buss Comp (2)</li>
+				<li>Drawmer 1973 - Multiband Compressor</li>
 			</ul>
 			</div>
 			)
 	}
 	const mics = () => {
 		return (
-			<div style={styles.gearBlock}>
-  			<Typography variant="h5" component="h1" gutterBottom>
-				<h5>Microphones</h5>
-			</Typography>
+			<div className="gearBlock p-4 md:p-6">
+				<h5 className="border-purple-200 text-blue-600">Microphones</h5>
 			<ul>
 				<li>UAD Sphere DLX (vintage mic emulator)</li>
 				<li>Neumann - km 184 (2)</li>
@@ -156,33 +114,48 @@ const JustTheRightGear = () => {
 
 	const instruments = () => {
 		return (
-			<div style={styles.gearBlock}>
-  			<Typography variant="h5" component="h1" gutterBottom>
-				<h5>Instruments</h5>
-			</Typography>
+			<div className="gearBlock p-4 md:p-6">
+  			
+				<h5 className="border-purple-200 text-blue-600">Instruments</h5>
+		
 			<ul>
-				<li>Stuff (Kawaii,Fender,Washburn,Yamaha,Gretsch,Ampeg,DW Drums</li>
-				<li>BYOI!</li>
+				<li>Stuff (Kawaii, Fender, Washburn, Yamaha, Gretsch, Ampeg, DW Drums)</li>
 			</ul>
 			</div>
 			)
 	}
 
+	const gearImage = (alt,imageURL) => (
+		<img
+			className="h-56 w-full rounded-lg object-cover shadow-lg  md:min-h-64"
+			src={imageURL}
+			alt={alt}
+		/>
+	);
+
+	const gearRow = (content, imageAlt, imageURL) => (
+		<div className="grid grid-cols-1 items-start gap-6 border-t border-white/20 py-6 md:grid-cols-[7fr_3fr] md:items-stretch">
+			{content}
+			{gearImage(imageAlt, imageURL)}
+		</div>
+	);
+
 	return (
-		<Paper elevation={1} style={styles.paperContainer}>
-		<div style={styles.layer}>
-		<h1 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
-          to={"/"}>Deep Lake Sound Studio</Button></h1>
-        <h2 style={styles.h2Style}>
+		<div className="bg-neutral-950 text-neutral-100 font-sans antialiased min-h-screen selection:bg-indigo-500 selection:text-white">
+		
+			<NavBar />
+		<div className="mx-auto max-w-7xl">
+        <h2 className="mb-2 text-2xl font-semibold text-[#9db4ff] md:text-2xl">
           Just the right gear...
         </h2>
-		{core()}
-		{preamps()}
-		{effects()}
-		{mics()}
-		{instruments()}
+		{gearRow(core(), 'Studio core gear', 'https://deeplakesound.fra1.digitaloceanspaces.com/images/nsite/EntryBW.jpg')}
+		{gearRow(preamps(), 'Studio preamps', 'https://deeplakesound.fra1.digitaloceanspaces.com/images/nsite/Gear/preamps_xlrpb.jpg')}
+		{gearRow(effects(), 'Studio effects equipment', 'https://deeplakesound.fra1.digitaloceanspaces.com/images/nsite/Gear/compressors.jpg')}
+		{gearRow(mics(), 'Studio microphones', 'https://deeplakesound.fra1.digitaloceanspaces.com/images/nsite/Drumbooth.jpg')}
+		{gearRow(instruments(), 'Studio instruments', 'https://deeplakesound.fra1.digitaloceanspaces.com/images/nsite/Gear/GuitarsBone.jpeg')}
 		</div>
-		</Paper>
+	
+		</div>
 		);
 }
 

@@ -1,12 +1,12 @@
 services:
-  deeplakesoundclient:
-    image: deeplakesoundclient
+  deeplakesound:
+    image: deeplakesound
     build:
-      context: client
+      context: .
       dockerfile: ./Dockerfile
     environment:
       NODE_ENV: development
     ports:
-      - 3000:3000
+      - 8080:8080
       - 9229:9229
-    command: ["node", "--inspect=0.0.0.0:9229", "index.js"]
+    command: ["node", "--inspect=0.0.0.0:9229", "server/index.js"]

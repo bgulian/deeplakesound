@@ -34,7 +34,11 @@ app.get('/api/health', (req, res) => {
 
 // SPA fallback: serve index.html for all unmatched routes (only if dist exists)
 if (distExists) {
+  console.log('✓ SPA fallback enabled: serving index.html for unmatched routes')
+  
   app.get('*', (req, res) => {
+    console.log("request = ", req.url)
+    console.log("clientBuildPath = ", clientBuildPath)
     res.sendFile(path.join(clientBuildPath, 'index.html'))
   })
 } else {

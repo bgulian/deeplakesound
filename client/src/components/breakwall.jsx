@@ -1,80 +1,29 @@
 import React  from 'react';
-import Button from '@mui/material/Button';
 import  '../eightst_styles.css';
-import Paper from '@mui/material/Paper';
 import LowVolumeAudioPlayer from './lowVolumeAudioPlayer';
 import { Link } from 'react-router-dom';
+import NavBar from './navbar.jsx';
 
 const Breakwall = () => {
-	const styles = {
-    //40px 0px 40px
-    //https://open.spotify.com/album/26xbqwFIAdnhYbVm1wqCG1?si=TlArtZHxToO4ewzf9yhJGA
-      paperContainer: {
-          backgroundRepeat: 'no-repeat',
-          backgroundImage: `url("https://deeplakesound.fra1.digitaloceanspaces.com/images/CoolGlasses.jpg")`,
-          minHeight: `1200px`,
-          margin: "0px 40px 0px 40px"
-      	},
-      h1Style: {
-      	padding: "10px 10px 10px 10px",
-      	//color: "white"
-      },
-      h2Style: {
-      	padding: "20px 10px 10px 10px",
-      	margin: "10px 40px 0px 20px",
-      	color: "black",
-        wordWrap: "normal",
-        maxWidth: "400px"
-      },
-      figureStyle: {
-        margin: "10px 5px 0px 20px",
-        color: "white",
-        padding: "10px 10px 10px 10px",
-      },
-
-      linkStyle: {
-        outline: "none",
-        textDecoration: "none",
-        fontSize: "1.2rem",
-        padding: "2px 1px 0",
-        color: "#5279CD",
-        margin: "0px 40px 0px 20px",
-      },
-    
-
-      bigButton: {
-      	fontSize: "32px",
-      	color: "#4351b7",
-      	textTransform: 'none'
-      }
- 	 };
-
-
+	
 return (
-    <Paper elevation={1} style={styles.paperContainer}>
-    <h3 style={styles.h1Style}><Button style={styles.bigButton} variant="outlined" component={Link}
-          to={"/"}>Deep Lake Sound</Button></h3>
-        <h4 style={styles.h2Style}>
-          Breakwall - Bob Gulian - January 2026
-        </h4>
-         <figure style={styles.figureStyle}>
-            <a href="https://open.spotify.com/album/26xbqwFIAdnhYbVm1wqCG1?si=TlArtZHxToO4ewzf9yhJGA"><figcaption>Breakwall - Bob Gulian</figcaption>
-            <img src="https://deeplakesound.fra1.digitaloceanspaces.com/images/BreakwallBetter.jpg" width="300px" height="300px" alt='Breakwall - Bob Gulian'/>
-            </a>
-         </figure>
-        <figure style={styles.figureStyle}>
-          <figcaption>Canada - Bob Gulian</figcaption>
-          <LowVolumeAudioPlayer src="https://deeplakesound.fra1.digitaloceanspaces.com/audio/Canada-PTMix.wav" initialVolume={0.3} />
+    <div className="bg-neutral-950 text-neutral-100 font-sans antialiased min-h-screen selection:bg-indigo-500 selection:text-white">
+		<NavBar />  
+    <div className="space-y-6 mb-6 text-sm font-normal lg:text-xl">
+        <figure>
+         <figcaption>Breakwall - Bob Gulian 2026</figcaption>
+        <iframe data-testid="embed-iframe" style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/album/26xbqwFIAdnhYbVm1wqCG1?utm_source=generator&si=b5a5d6e50f6a4c47" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </figure>
-        <figure style={styles.figureStyle}>
-          <figcaption>Bang Fortune - Bob Gulian</figcaption>
-          <LowVolumeAudioPlayer src="https://deeplakesound.fra1.digitaloceanspaces.com/audio/Bang%20Fortune.wav" initialVolume={0.3} />
+        <figure>
+         <figcaption>Coldcase - Bob Gulian 2025</figcaption>
+        <iframe data-testid="embed-iframe" style={{"border-radius": "12px"}} src="https://open.spotify.com/embed/album/7HuTfghhYDx48IHNDUZo5L?utm_source=generator&si=acb116a8115e4c84" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </figure>
-         <figure style={styles.figureStyle}>
-         <figcaption style={styles.figureStyle}>33 1/3 Album - <strong>33 1/3</strong> - Bob Gulian:</figcaption>
-       <a style={styles.linkStyle} href="https://open.spotify.com/album/7wNjFCFfd45qewLA9VI8Z">33 1/3</a>
+         <figure>
+         <figcaption>33 1/3 Album - Bob Gulian 2023</figcaption>
+          <iframe data-testid="embed-iframe" style={{ borderRadius: '12px' }}  src="https://open.spotify.com/embed/album/7wNjFCFfd45qewLA9VI8ZM?utm_source=generator&si=06e9bb3c78594df1" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </figure>
-        </Paper>
+       </div> 
+    </div>
     );
 }
 
