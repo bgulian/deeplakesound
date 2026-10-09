@@ -132,5 +132,6 @@ npm test
 - [Vite Documentation](https://vitejs.dev/)
 - [Express Documentation](https://expressjs.com/)
 - [React Router v6](https://reactrouter.com/)
-- [Material-UI](https://mui.com/)
+- [Base-UI](https://base-ui.com/react/overview/quick-start)
+- [TailWindCSS](https://tailwindcss.com/docs/installation/using-vite)
 - [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform/)
