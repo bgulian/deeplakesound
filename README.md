@@ -91,7 +91,7 @@ npm start
 ## Key Features
 
 - **Fast Development**: Vite hot module reloading (HMR)
-- **Modern Stack**: React 18, Material-UI 7, Express 4
+- **Modern Stack**: React 18, Base-UI TailwindCSS, Express 4
 - **Client-side Routing**: React Router v6 with SPA fallback
 - **Production Ready**: Monorepo with separate build outputs
 - **DigitalOcean Ready**: `app.yaml` for App Platform deployment
