@@ -91,7 +91,7 @@ npm start
 ## Key Features
 
 - **Fast Development**: Vite hot module reloading (HMR)
-- **Modern Stack**: React 18, Material-UI 7, Express 4
+- **Modern Stack**: React 18, Base-UI TailwindCSS, Express 4
 - **Client-side Routing**: React Router v6 with SPA fallback
 - **Production Ready**: Monorepo with separate build outputs
 - **DigitalOcean Ready**: `app.yaml` for App Platform deployment
@@ -132,5 +132,6 @@ npm test
 - [Vite Documentation](https://vitejs.dev/)
 - [Express Documentation](https://expressjs.com/)
 - [React Router v6](https://reactrouter.com/)
-- [Material-UI](https://mui.com/)
+- [Base-UI](https://base-ui.com/react/overview/quick-start)
+- [TailWindCSS](https://tailwindcss.com/docs/installation/using-vite)
 - [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform/)
