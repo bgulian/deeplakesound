@@ -16,9 +16,9 @@ const aboutData = [
 
 const morePics = [
 {
-	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/baffle-drums.jpg',
-	"title": "Drum booth",
-	"desc": "The load side"
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/nsite/RonPlays-DrumBooth.jpg',
+	"title": "Djembe - Ron Castaldo laying down a track",
+	"desc": "Groove man"
 },
 {
 	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/baffle-drums.jpg',
@@ -26,9 +26,9 @@ const morePics = [
 	"desc": "The load side"
 },
 {
-	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/baffles-1x.jpg',
-	"title": "Deep Lake Studio on a grey day",
-	"desc": "Reflexions absorbed."
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/nsite/XenaOfTheLake.jpg',
+	"title": "Deep Lake Sound - Xena of the Lake",
+	"desc": "Mascot pays for room and board"
 },
 {
 	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/Racks.jpg',
@@ -46,8 +46,8 @@ const morePics = [
 	"desc": "Salty! Except...not."
 },
 {
-	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/RonThroopPlays.jpg',
-	"title": "Ron Throop - stand and record!",
+	"img": 'https://deeplakesound.fra1.digitaloceanspaces.com/images/nsite/Noah.jpg',
+	"title": "Noah Roach of the Recliners - stand and record!",
 	"desc": "Saturday afternoon fun"
 },
 {

@@ -38,6 +38,11 @@ const LandingPage = () => {
             alt="Production desk at Deep Lake Sound"
             className="h-full max-h-152 min-h-72 w-full object-cover"
           />
+           <img
+            src="https://deeplakesound.fra1.digitaloceanspaces.com/images/nsite/TruckStopSinger.jpg"
+            alt="Bob Gulian - owner and engineer at Deep Lake Sound"
+            className="h-full max-h-152 min-h-72 w-full object-cover"
+          />
         </div>
       </section>
     </div>

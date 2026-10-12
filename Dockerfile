@@ -1,7 +1,7 @@
 # Multi-stage build for Deep Lake Sound - DigitalOcean App Platform
 
 # Stage 1: Build the client (Vite)
-FROM node:20-bullseye-slim AS client-builder
+FROM node:20-bookworm-slim AS client-builder
 
 WORKDIR /app
 
@@ -19,7 +19,7 @@ RUN npm install && \
     npm run build
 
 # Stage 2: Production runtime
-FROM node:20-bullseye-slim
+FROM node:20-bookworm-slim
 
 WORKDIR /app
 
